@@ -399,6 +399,8 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
         }
     }
 
+
+
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
 

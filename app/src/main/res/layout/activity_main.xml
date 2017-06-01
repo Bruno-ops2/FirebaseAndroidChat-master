@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/background">
+    android:background="@color/colorPrimaryWallpaper">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -46,10 +46,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/editTextMessage"
-            android:layout_toStartOf="@+id/buttonMessage"
-            android:layout_toRightOf="@+id/buttonEmoji"
-            android:layout_toEndOf="@+id/buttonEmoji"
-            emojicon:emojiconSize="28sp"/>
+            emojicon:emojiconSize="28sp"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/buttonEmoji" />
         <ImageView
             android:id="@+id/buttonMessage"
             android:src="@android:drawable/ic_menu_send"
